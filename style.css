@@ -1,0 +1,68 @@
+*{
+    list-style-type: none;
+}
+.cointener{
+    max-width: 1519px;
+    padding-left: 200px;
+    padding-right: 200px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.cont{
+    margin-top: 40px;
+    width: 400px;
+    border-radius: 10px;
+    height: 600px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+input{
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+  }
+button {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+ul {
+    padding: 0;
+}
+li {
+    background: #f0f0f0;
+    width: 320px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.del{
+    background: transparent;
+    color: red;
+    width: 200px;
+    margin-top: 10px;
+    padding: 3px 6px;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: 0.3s;
+  }
+.del:hover{
+    background: red;
+    color: white;
+}

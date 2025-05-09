@@ -1,15 +1,15 @@
 let malumotlararray = JSON.parse(localStorage.getItem('malumotlar')) || [];
 
 const forma = document.getElementById('myForm');
-const royxat = document.getElementById('dataList');
+const royxatWrap = document.getElementById('dataList');
 
 function royxat() {
-  royxat.innerHTML = '';
+  royxatWrap.innerHTML = '';
   malumotlararray.forEach((item, index) => {
     const li = document.createElement('li');
     li.innerHTML = `Ism: ${item.ism}, Email: ${item.email} 
       <button class="del" onclick="del(${index})">O'chirish</button>`;
-    royxat.appendChild(li);
+    royxatWrap.appendChild(li);
   });
 }
 
